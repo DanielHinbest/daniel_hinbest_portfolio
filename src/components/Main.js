@@ -3,15 +3,15 @@ import Carousel from "./Carousel";
 
 const Main = () => (
     <main>
-        <div style={{marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             <Carousel>
-                <a href="http://www.github.com/DanielHinbest"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/1.jpg"} alt="placeholder"/></a>
-                <a href="http://www.google.ca"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/2.jpg"} alt="placeholder" /></a>
-                <a href="http://www.durhamcollege.ca"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/3.jpg"} alt="placeholder" /></a>
+                <a href="http://www.github.com/DanielHinbest"><img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/1.jpg"} alt="placeholder" /></a>
+                <a href="http://www.google.ca"><img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/2.jpg"} alt="placeholder" /></a>
+                <a href="http://www.durhamcollege.ca"><img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/3.jpg"} alt="placeholder" /></a>
             </Carousel>
         </div>
         <div className="container marketing">
-
+            {/* About Me here */}
             <div className="row">
                 <div className="col-lg-4">
                     <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
@@ -35,9 +35,9 @@ const Main = () => (
                     <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div>
             </div>
-
             <hr className="featurette-divider" />
-
+            
+            {/* Project examples */}
             <div className="row featurette">
                 <div className="col-md-7">
                     <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It’ll blow your mind.</span></h2>
