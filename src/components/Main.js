@@ -36,8 +36,6 @@ const Main = () => (
                 </div>
             </div>
 
-
-
             <hr className="featurette-divider" />
 
             <div className="row featurette">
