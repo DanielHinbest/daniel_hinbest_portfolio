@@ -3,11 +3,11 @@ import Carousel from "./Carousel";
 
 const Main = () => (
     <main>
-        <div style={{ maxWidth: 400, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div style={{marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             <Carousel>
-                <img src={process.env.PUBLIC_URL+"/images/1.jpg"} alt="placeholder" />
-                <img src={process.env.PUBLIC_URL+"/images/2.jpg"} alt="placeholder" />
-                <img src={process.env.PUBLIC_URL+"/images/3.jpg"} alt="placeholder" />
+                <a href="http://www.github.com/DanielHinbest"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/1.jpg"} alt="placeholder"/></a>
+                <a href="http://www.google.ca"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/2.jpg"} alt="placeholder" /></a>
+                <a href="http://www.durhamcollege.ca"><img style={{maxWidth: 400}} src={process.env.PUBLIC_URL+"/images/3.jpg"} alt="placeholder" /></a>
             </Carousel>
         </div>
         <div className="container marketing">
