@@ -19,9 +19,9 @@ class Header extends React.Component {
                                     <a className="nav-link" href="https://www.linkedin.com/in/daniel-hinbest">LinkedIn Profile</a>
                                 </li>
                             </ul>
-                            <ul class="d-flex">
-                                <li>
-                                    <a className="nav-link">Contact: daniel.hinbest@dcmail.ca</a>
+                            <ul className="navbar-nav">
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Contact: daniel.hinbest@dcmail.ca</a>
                                 </li>
                             </ul>
                         </div>
