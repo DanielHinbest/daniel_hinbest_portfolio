@@ -1,3 +1,8 @@
+# Daniel Hinbest's Portfolio
+This is a application built to showcase my skills, experience, and projects. It was written using React and 
+was the chosen framework to get some practice using React for building applications. It will require the installation of Node.js
+and the downloading of the node modules, which can be done by running the npm install command in the directory.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
