@@ -8,7 +8,7 @@ class About extends React.Component {
 
                 <h2>{this.props.sectionTitle}</h2>
                 <p>{this.props.paragraph}</p>
-                {/* <p><a className="btn btn-secondary" href="#">View details &raquo;</a></p> */}
+                {this.props.button}
             </div>
         );
     }

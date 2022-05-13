@@ -28,7 +28,8 @@ class AboutList extends React.Component{
                 including the Ontario Scholar, which is awarded to students with an average of 80% or higher in their best six Grade 12 courses. While studying at Durham College, I will be graduating in June 2022 with an Ontario College Advanced Diploma,
                 and was on the College Honour Roll in every semester. This is achieved by a minimum Semester GPA of 4.0 out of 5 (equivalent to an 80% average) in that semester's courses. In the spring of 2022, I represented Durham College at the 2022 Skills Ontario Coding Competition, where I was
                 competing against students from post-secondary institutions across Ontario and was required to complete tasks related to problem solving, general knowledge, flowcharts, and my coding abilities. At the Skills Ontario Closing Ceremony, I was announced
-                as the Gold Medalist in the Post-Secondary Coding Competition."/>
+                as the Gold Medalist in the Post-Secondary Coding Competition."
+                button={<p><a class='btn btn-secondary' href='2022_Results.pdf'>View results &raquo;</a></p>}/>
                     </div>
         );
     }

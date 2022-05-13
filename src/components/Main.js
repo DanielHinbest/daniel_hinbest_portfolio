@@ -9,9 +9,9 @@ class Main extends React.Component {
             <main>
                 <div style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
                     <Carousel>
-                        <a href="#"><img style={{ maxWidth: 800 }} src={process.env.PUBLIC_URL + "/images/slide1.jpg"} alt="placeholder" /></a>
-                        <a href="#">{/*<img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/2.jpg"} alt="placeholder" />*/}Placehold for Gold Medal</a>
-                        <a href="#">{/*<img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/3.jpg"} alt="placeholder" />*/}Content TBD</a>
+                        <a href="#"><img style={{ maxWidth: 800 }} src={process.env.PUBLIC_URL + "/images/slide1.jpg"} alt="Daniel Hinbest" /></a>
+                        <a href="#"><img style={{ maxWidth: 800 }} src={process.env.PUBLIC_URL + "/images/skills-certificate.png"} alt="Skills Ontario Certificate" /></a>
+                        {/* <a href="#"><img style={{ maxWidth: 400 }} src={process.env.PUBLIC_URL + "/images/3.jpg"} alt="placeholder" />/a> */}
                     </Carousel>
                 </div>
                 <div className="container marketing">
